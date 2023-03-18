@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5890650F-597
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Persistence.MongoDB", "src\Quartz.Persistence.MongoDB\Quartz.Persistence.MongoDB.csproj", "{D3266CA1-E489-4FED-90F3-2039138EB0B7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2DD36F4C-19C4-4132-AA1D-61E4AF43F255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Persistence.MongoDB.Tests", "test\Quartz.Persistence.MongoDB.Tests\Quartz.Persistence.MongoDB.Tests.csproj", "{643389A9-D34D-47F2-9417-C0F671C7136A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{D3266CA1-E489-4FED-90F3-2039138EB0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3266CA1-E489-4FED-90F3-2039138EB0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3266CA1-E489-4FED-90F3-2039138EB0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643389A9-D34D-47F2-9417-C0F671C7136A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643389A9-D34D-47F2-9417-C0F671C7136A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643389A9-D34D-47F2-9417-C0F671C7136A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643389A9-D34D-47F2-9417-C0F671C7136A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D3266CA1-E489-4FED-90F3-2039138EB0B7} = {5890650F-5970-46EF-8787-5E58A8858493}
+		{643389A9-D34D-47F2-9417-C0F671C7136A} = {2DD36F4C-19C4-4132-AA1D-61E4AF43F255}
 	EndGlobalSection
 EndGlobal
